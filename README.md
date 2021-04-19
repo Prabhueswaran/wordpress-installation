@@ -1,5 +1,5 @@
 # wordpress-installation
-Step 1: Installing Nginx on Ubuntu 20.04
+## Step 1: Installing Nginx on Ubuntu 20.04
 
 > $ sudo apt update 
 > 
@@ -9,7 +9,7 @@ Step 1: Installing Nginx on Ubuntu 20.04
 > 
 > $ sudo systemctl enable nginx
 
-Step 2: Installing PHP in Ubuntu 20.04
+## Step 2: Installing PHP in Ubuntu 20.04
 
 > $ sudo apt install php php-mysql php-fpm
 > 
@@ -17,7 +17,7 @@ Step 2: Installing PHP in Ubuntu 20.04
 > 
 > $ sudo systemctl enable php7.4-fpm
 
-Step 3: Configuring Nginx to work with PHP-FPM
+## Step 3: Configuring Nginx to work with PHP-FPM
 
 > $ sudo vim /etc/nginx/sites-available/default
 > 
@@ -31,7 +31,7 @@ Step 3: Configuring Nginx to work with PHP-FPM
 > 
 > http://SERVER_IP/info.php
  
-Step 4: Installing WordPress in Ubuntu 20.04
+## Step 4: Installing WordPress in Ubuntu 20.04
 
 > cd /tmp
 >
@@ -45,7 +45,7 @@ Step 4: Installing WordPress in Ubuntu 20.04
 >
 > sudo chown -R www-data:www-data /var/www/wordpress
 
-Step 5: Setting up the WordPress Configuration File
+## Step 5: Setting up the WordPress Configuration File
 
 > curl -s https://api.wordpress.org/secret-key/1.1/salt/
 >
@@ -71,6 +71,6 @@ Step 5: Setting up the WordPress Configuration File
 
 ![image](https://user-images.githubusercontent.com/42967535/115277933-78c55f80-a162-11eb-904a-cb77f25e3e4f.png)
 
+## Step 6: Configure nginx 
 
-
-
+Replace the defacult config file from this repo
