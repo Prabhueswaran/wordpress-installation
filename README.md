@@ -26,10 +26,7 @@
 > $ sudo nginx -t
 > 
 > $ sudo systemctl restart nginx
-> 
-> $ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
-> 
-> http://SERVER_IP/info.php
+
  
 ## Step 4: Installing WordPress in Ubuntu 20.04
 
