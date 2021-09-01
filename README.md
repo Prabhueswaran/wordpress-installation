@@ -20,7 +20,9 @@
 ## Step 3: Configuring Nginx to work with PHP-FPM
 
 > $ sudo vim /etc/nginx/sites-available/default
+> 
 > Replace the defacult config file from this repo
+> 
 https://github.com/Prabhueswaran/wordpress-installation/blob/main/default 
 
 > $ sudo nginx -t
