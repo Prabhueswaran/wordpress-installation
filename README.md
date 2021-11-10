@@ -34,7 +34,7 @@ https://github.com/Prabhueswaran/wordpress-installation/blob/main/default
 
 > cd /tmp
 >
-> curl -LO https://wordpress.org/latest.tar.gz
+> curl -O https://wordpress.org/latest.tar.gz
 >
 > tar xzvf latest.tar.gz
 >
