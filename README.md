@@ -13,9 +13,9 @@
 
 > $ sudo apt install php php-mysql php-fpm
 > 
-> $ sudo systemctl status php7.4-fpm
+> $ sudo systemctl status php8.1-fpm
 > 
-> $ sudo systemctl enable php7.4-fpm
+> $ sudo systemctl enable php8.1-fpm
 
 ## Step 3: Configuring Nginx to work with PHP-FPM
 
